@@ -1,69 +1,69 @@
 # 💱 Currency Converter
 
-A simple and interactive Currency Converter application that allows users to convert currencies from one currency to another quickly and easily. The application provides a user-friendly interface and helps users understand currency conversion using exchange rates.
+A web-based Currency Converter application built using HTML, CSS, and JavaScript. It allows users to convert currencies by selecting their desired currencies and entering an amount.
 
 ## 🚀 Features
 
-- Convert currencies between different currencies
-- User-friendly and interactive interface
-- Supports multiple currencies
-- Simple and fast conversion
-- Real-time exchange rates (if API integration is enabled)
-- Easy-to-use input system for entering amounts and selecting currencies
+- Convert currencies between different countries
+- Select source and target currencies
+- Enter an amount for conversion
+- Interactive and user-friendly interface
+- Dynamic currency selection
+- Responsive web design
+- JavaScript-based conversion functionality
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- API Integration (if used)
-- Requests
+- **HTML5** – Structure of the application
+- **CSS3** – Styling and responsive layout
+- **JavaScript** – Currency conversion logic and interactivity
 
 ## 📂 Project Structure
 
 ```text
 Currency-Converter/
 │
-├── app.py
-├── requirements.txt
-└── README.md
+├── README.md
+├── app.js
+├── codes.js
+├── project.css
+└── project.html
 ```
 
-## ⚙️ Installation & Setup
+## ⚙️ How to Run
 
-### 1. Clone the repository
+1. Clone this repository:
 
-```bash
-git clone https://github.com/your-username/Currency-Converter.git
-```
+   ```bash
+   git clone https://github.com/your-username/Currency-Converter.git
+   ```
 
-### 2. Navigate to the project directory
+2. Open the project folder.
 
-```bash
-cd Currency-Converter
-```
+3. Open `project.html` in your browser.
 
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-streamlit run app.py
-```
+4. Select the currencies, enter the amount, and convert.
 
 ## 💡 How It Works
 
-1. Select the source currency.
-2. Select the target currency.
-3. Enter the amount you want to convert.
-4. The application calculates and displays the converted amount based on the exchange rate.
+1. Enter the amount you want to convert.
+2. Select the source currency.
+3. Select the target currency.
+4. Click the convert button.
+5. View the converted currency value.
 
-## 🎯 Objective
+## 🎯 Project Objective
 
-The objective of this project is to build a practical Python application that demonstrates currency conversion, user interaction, application development, and API integration.
+The main objective of this project is to develop an interactive web application while learning JavaScript DOM manipulation, event handling, frontend development, and currency conversion logic.
+
+## 📚 Learning Outcomes
+
+- HTML structure and web page development
+- CSS styling and responsive design
+- JavaScript DOM manipulation
+- Event handling
+- Working with currency codes
+- Building interactive web applications
 
 ## 👨‍💻 Author
 
